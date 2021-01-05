@@ -10,7 +10,7 @@ services:
       - TZ=America/New_Yrok
       - PASSWORD=password #optional
       - SUDO_PASSWORD=password #optional
-      - SUDO_PASSWORD_HASH=password #optional
+      # - SUDO_PASSWORD_HASH=password #optional
       - PROXY_DOMAIN=code-server.my.domain #optional
     volumes:
       - ./config:/config
