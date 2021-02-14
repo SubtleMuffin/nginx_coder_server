@@ -3,7 +3,7 @@ version: '3'
 services:
   coder_server:
     container_name: code-server
-    image: subtlemuffim/coder-server:latest
+    image: subtlemuffin/coder-server:latest
     environment:
       - PUID=1000
       - PGID=1000
